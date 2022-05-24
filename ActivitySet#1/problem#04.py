@@ -1,9 +1,7 @@
 # Conditional Execution
-
-    hrs = float(input("Enter hours: "))
-    rte = float(input("Enter rate:"))
-    if hrs<=40:
-      print("Pay:", hrs*rte)
-      
-    else:
-    print("Pay:", (40*rte)+((hrs-40)*1.5*rte))
+h=float(input("Enter hours: "))
+r=float(input("Enter rate:"))
+if h<=40:
+  print("Pay:",(h*r))
+else:
+  print("Pay:",((40*r)+((h-40)*1.5*r)))
