@@ -6,8 +6,12 @@ def computepay(h, r):
     if h<=40:
         pay=(h*r)
     else:
-        pay= (40*r)+((h-40)*1.5*r)
+        pay=(40*r)+((h-40)*1.5*r)
     return pay 
+   #you can also return variable name
+   # (which r defined) return value stores in place of
+   #  none if any value is not returned then the output
+   #   will be none.
 
 h = float(input("Enter hours? "))
 r = float(input("Enter rate per hour? "))
