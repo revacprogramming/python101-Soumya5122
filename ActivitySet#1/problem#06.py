@@ -1,10 +1,18 @@
-def print_lyrics():
-    print("my name is soumya.\n")
-    print("I love fashioning.\n")
-    print("I love desgining.\n")
+# Loops & Iterators
 
+largest = None
+smallest = None
 
-def repeat_lyrics():
-    print_lyrics()
-    print_lyrics()
+while True:
+    num = input("Enter a number? ")
+
+    if num == "done":
+        break
+
+    # ...
+
+    print(num)
+
+print("Maximum", largest)
+
 

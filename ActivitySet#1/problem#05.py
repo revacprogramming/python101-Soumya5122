@@ -1,11 +1,16 @@
-Score =input("Enter score:")
-s=float(Score)
-if s>0 and s<1:
-    if s>=0.6:
-        print("A")
-    elif s>=0.9:
-        print("N")
-    elif s<=0.3:
-        print("S")
-else:
-    print("Oops there is an ERROR.")
+
+# Functions
+
+
+def computepay(h, r):
+    if h<=40:
+        print("pay:",(h*r))
+    else:
+        print("pay:",(40*r)+((h-40)*1.5*r))
+    return 
+
+h = float(input("Enter hours? "))
+r = float(input("Enter rate per hour? "))
+
+p = computepay(h, r)
+print("Pay", p)
