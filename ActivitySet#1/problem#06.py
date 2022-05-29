@@ -5,14 +5,14 @@ smallest = None
 
 while True:
     num = input("Enter a number? ")
-
     if num == "done":
         break
 
-    # ...
-
-    print(num)
-
-print("Maximum", largest)
-
+    try :
+        num=int(num)
+    except:
+        print("Invalid input")
+        continue
+print("Maximum is", largest)
+print("Minimum is",smallest)
 
