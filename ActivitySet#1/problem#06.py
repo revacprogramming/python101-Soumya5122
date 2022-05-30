@@ -14,13 +14,13 @@ while True:
         print("Invalid input")
         continue
     if largest==None:
-        largest=num
-    elif largest>None:
-        largest=num
-    if smallest==num:
-        smallest=num
-    elif smallest>num:
-        smallest=num
+        largest=n
+    if largest>None:
+        largest=n
+    if smallest==None:
+        smallest=n
+    if smallest>None:
+        smallest=n
 
 print("Maximum is", largest)
 print("Minimum is",smallest)
