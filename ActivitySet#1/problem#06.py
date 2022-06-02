@@ -1,7 +1,7 @@
 # Loops & Iterators
 
-largest = None
-smallest = None
+largest = 0
+smallest = 0
 
 while True:
     n = input("Enter a number? ")
@@ -13,14 +13,17 @@ while True:
     except:
         print("Invalid input")
         continue
-    if largest==None:
-        largest=n
-    if largest>None:
-        largest=n
-    if smallest==None:
-        smallest=n
-    if smallest>None:
-        smallest=n
+        
+    num=int(n)
+    if largest is 0:
+        largest=num
+    if smallest is 0:
+        smallest=num
+
+    if largest<num:
+        largest=num
+    if smallest>num:
+        smallest=num
 
 print("Maximum is", largest)
 print("Minimum is",smallest)
