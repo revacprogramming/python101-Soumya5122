@@ -1,8 +1,5 @@
 
 
-from ctypes.wintypes import WORD
-from zipimport import zipimporter
-
 x="awesome"
 def my_function():
     if x is'awesome':
@@ -16,8 +13,9 @@ def my_function():
              print("done")
           
 
-my_function()
-
+my_function()     #it is fine if u don't assign by a 
+                      #variable
+                   
 
 
 
