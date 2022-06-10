@@ -1,5 +1,6 @@
 z="awesome"
 def variable_name():
+    global z
     z="Lovely"
     print("Pranjali is " +z)
 

@@ -1,3 +1,4 @@
 # Files
 
-filename = "dataset/mbox-short.txt"
+filename = open("dataset/mbox-short.txt", "r")
+print(filename.readline())
