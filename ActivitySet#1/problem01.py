@@ -12,4 +12,10 @@ f.close()
 f=open("randomrona.txt","r")
 print(f.read())
 print("\n\n")
+
+import os
+if os.path.exists("randomrona.txt"):
+    os.remove("randomrona.txt")
+else:
+    print("the file doenot exists")
 f.close()
