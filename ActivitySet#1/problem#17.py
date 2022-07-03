@@ -13,7 +13,7 @@ def my_function():
              print("done")
           
 
-my_function()     #it is fine if u don't assign by a 
+my_function()     #it is fine if u don't have time for me, deep down i know you love me
                       #variable
                    
 
