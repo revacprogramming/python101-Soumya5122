@@ -9,8 +9,19 @@ while True:
     if num == "done":
         break
 
-    # ...
+    try:
+      num=int(n)
+    except:
+      print("Invalid input")
+      continue
+      
+    num=int(n)
+  if largest and smallest is o:
+    largest=smallest=num
+  if largest<num>smallest:
+    largest=smallest=num
 
-    print(num)
+    
 
 print("Maximum", largest)
+print("Minimum", smallest)
