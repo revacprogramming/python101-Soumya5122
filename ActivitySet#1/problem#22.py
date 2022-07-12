@@ -3,6 +3,7 @@ total=0
 file=open("romeo.txt",'r')
 
 for line in file:
+  if line.startswith('X-DSPAM-Confidence: '):  
     count=count+1
     x=line.find(':')
     n=line[x+1:].strip()
@@ -11,4 +12,3 @@ for line in file:
     average=total/count
     break
 print("Average:",average)
-print(file)
