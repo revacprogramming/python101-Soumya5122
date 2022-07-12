@@ -1,17 +1,14 @@
-# This is a comment
+count=0
+total=0
+file=open("romeo.txt",'r')
 
-x='hello world'
-
-
-"""tHIS IS A COMMMENT WRITTEN
- IN MORE than just one 
- line"""
-
-
-def myfunc():
-    if x == "hello world ":
-        print("done")
-    else:
-        print(x)
-
-myfunc()
+for line in file:
+    count=count+1
+    x=line.find(':')
+    n=line[x+1:].strip()
+    value=float(n)
+    total=total+value
+    average=total/count
+    break
+print("Average:",average)
+print(file)
