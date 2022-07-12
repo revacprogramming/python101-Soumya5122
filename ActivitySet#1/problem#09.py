@@ -1,7 +1,7 @@
 
-fhand = open("romeo.txt")
+fname= open("romeo.txt")
 lst = list()
-for line in fhand:
+for line in fname:
     line = line.rstrip().split()
     #line = line.split()
     for i in line:
