@@ -1,5 +1,5 @@
 
-fname= open("romeo.txt")
+fname= open("randomrona.txt")
 lst = list()
 for line in fname:
     line = line.rstrip().split()

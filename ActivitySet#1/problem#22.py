@@ -12,3 +12,4 @@ for line in file:
     average=total/count
     break
 print("Average:",average)
+#files
