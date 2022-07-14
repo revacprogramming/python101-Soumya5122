@@ -8,4 +8,4 @@ while (True):
     count = count + 1
 
 average = total / count
-print('Average:', average)
+print('Average is :', average)
